@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+     font-family: 'outfit', serif;
+}
+@font-face{
+    font-family: 'outfit';
+    src: url('Outfit-Regular.ttf') format('truetype'); 
+    font-weight: normal;  
+}
+
+header{
+    width: 100%;
+   
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1;
+}
+.navbar{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    
+    
+
+}
+.logo h3{
+    font-size: 25px;
+}
+span{
+    color: #FFA500;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #FFA500;
+    font-size: 19px;
+    font-weight: bold;
+}
+.navigation a:hover{
+    color: #FFBF00;
+    border-bottom: solid 1px #FFBF00;
+}
+.contactBtn{
+    background-color: #FFA500;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.contactBtn a{
+    color: #fff;
+}
+.contactBtn a:hover{
+    color: #fff;
+}
+section{
+    height: 100vh;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15rem;
+    
+}
+.homeText{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.homeText p{
+    font-size: 18px;
+    
+}
+.socials{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.homeImg{
+    width: 30vw;
+    border-radius: 50%;
+}
