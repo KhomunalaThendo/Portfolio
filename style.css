@@ -12,9 +12,7 @@
 
 header{
     width: 100%;
-   
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     z-index: 1;
@@ -93,4 +91,5 @@ section{
 .homeImg{
     width: 30vw;
     border-radius: 50%;
+
 }
