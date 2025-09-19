@@ -64,6 +64,9 @@ span{
 section{
     height: 100vh;
 }
+section h2{
+    text-align: center;
+}
 .home{
     display: flex;
     align-items: center;
@@ -88,8 +91,177 @@ section{
     align-items: center;
     gap: 1rem;
 }
+.socials a img{
+    width: 45px;
+}
 .homeImg{
     width: 30vw;
     border-radius: 50%;
+}
+/*About styling*/
+/*Projects styling*/
+.projectsCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.projectTile{
+    display: flex;
+    flex-direction: column;
+   
 
+}
+.projectHeader{
+    width: 25vw;
+    height: 20vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+.projectHeader img{
+    width: 26.3vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.projectText{
+    width: 25vw;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #a5a5a5;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    
+header{
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1;
+}
+.navbar{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 10;
+    
+    
+
+}
+.logo h3{
+    font-size: 14px;
+}
+span{
+    color: #FFA500;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #FFA500;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navigation a:hover{
+    color: #FFBF00;
+    border-bottom: solid 1px #FFBF00;
+}
+.contactBtn{
+    background-color: #FFA500;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.contactBtn a{
+    color: #fff;
+}
+.contactBtn a:hover{
+    color: #fff;
+}
+section{
+    height: 100vh;
+}
+section h2{
+    text-align: center;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+.homeText{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.homeText p{
+    font-size: 18px;
+    
+}
+.socials{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.socials a img{
+    width: 25px;
+}
+.homeImg{
+    width: 80vw;
+    border-radius: 50%;
+}
+.projects{
+    height: 110vh;
+}
+/*Projects styling*/
+.projectsCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.projectTile{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.projectHeader{
+    width: 85vw;
+    height: 20vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+.projectHeader img{
+    width: 85.5vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.projectText{
+    width: 80vw;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #a5a5a5;
+    padding: 10px;
+}
+.contact{
+    margin-top: 25vh;
+}
 }
