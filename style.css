@@ -121,7 +121,7 @@ section h2{
 
 }
 .projectHeader img{
-    width: 26.3vw;
+    width: 26.2vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -264,4 +264,5 @@ section h2{
 .contact{
     margin-top: 25vh;
 }
+
 }
